@@ -14,7 +14,8 @@
     /* DO NOT EDIT BELOW THIS LINE */
     f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+'_settings',cc={};try{var c=JSON.parse(localStorage.getItem('_vwo_'+account_id+'_config'));cc=c&&typeof c==='object'?c:{}}catch(e){}var stT=cc.stT==='session'?w.sessionStorage:w.localStorage;code={nonce:v&&v.nonce,use_existing_jquery:function(){return typeof use_existing_jquery!=='undefined'?use_existing_jquery:undefined},library_tolerance:function(){return typeof library_tolerance!=='undefined'?library_tolerance:undefined},settings_tolerance:function(){return cc.sT||settings_tolerance},hide_element_style:function(){return'{'+(cc.hES||hide_element_style)+'}'},hide_element:function(){if(performance.getEntriesByName('first-contentful-paint')[0]){return''}return typeof cc.hE==='string'?cc.hE:hide_element},getVersion:function(){return version},finish:function(e){if(!f){f=true;var t=d.getElementById('_vis_opt_path_hides');if(t)t.parentNode.removeChild(t);if(e)(new Image).src='https://dev.visualwebsiteoptimizer.com/ee.gif?a='+account_id+e}},finished:function(){return f},addScript:function(e){var t=d.createElement('script');t.type='text/javascript';if(e.src){t.src=e.src}else{t.text=e.text}v&&t.setAttribute('nonce',v.nonce);d.getElementsByTagName('head')[0].appendChild(t)},load:function(e,t){var n=this.getSettings(),i=d.createElement('script'),r=this;t=t||{};if(n){i.textContent=n;d.getElementsByTagName('head')[0].appendChild(i);if(!w.VWO||VWO.caE){stT.removeItem(cK);r.load(e)}}else{var o=new XMLHttpRequest;o.open('GET',e,true);o.withCredentials=!t.dSC;o.responseType=t.responseType||'text';o.onload=function(){if(t.onloadCb){return t.onloadCb(o,e)}if(o.status===200||o.status===304){_vwo_code.addScript({text:o.responseText})}else{_vwo_code.finish('&e=loading_failure:'+e)}};o.onerror=function(){if(t.onerrorCb){return t.onerrorCb(e)}_vwo_code.finish('&e=loading_failure:'+e)};o.send()}},getSettings:function(){try{var e=stT.getItem(cK);if(!e){return}e=JSON.parse(e);if(Date.now()>e.e){stT.removeItem(cK);return}return e.s}catch(e){return}},init:function(){if(d.URL.indexOf('__vwo_disable__')>-1)return;var e=this.settings_tolerance();w._vwo_settings_timer=setTimeout(function(){_vwo_code.finish();stT.removeItem(cK)},e);var t;if(this.hide_element()!=='body'){t=d.createElement('style');var n=this.hide_element(),i=n?n+this.hide_element_style():'',r=d.getElementsByTagName('head')[0];t.setAttribute('id','_vis_opt_path_hides');v&&t.setAttribute('nonce',v.nonce);t.setAttribute('type','text/css');if(t.styleSheet)t.styleSheet.cssText=i;else t.appendChild(d.createTextNode(i));r.appendChild(t)}else{t=d.getElementsByTagName('head')[0];var i=d.createElement('div');i.style.cssText='z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;display: block !important;';i.setAttribute('id','_vis_opt_path_hides');i.classList.add('_vis_hide_layer');t.parentNode.insertBefore(i,t.nextSibling)}var o=window._vis_opt_url||d.URL,s='https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(o)+'&vn='+version;if(w.location.search.indexOf('_vwo_xhr')!==-1){this.addScript({src:s})}else{this.load(s+'&x=true')}}};w._vwo_code=code;code.init();})();
     </script>
-<!-- End VWO Async SmartCode -->
+    <!-- End VWO Async SmartCode -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -30,7 +31,6 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!--    =========== Tracker =========      -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2NYWM62ET3"></script>
     <script>
@@ -39,14 +39,15 @@
         gtag('js', new Date());
         gtag('config', 'G-2NYWM62ET3');
     </script>
-    <title>Kamineni Chaitanya Tilak Portfolio</title>
+
+    <title>Chaitanya Tilak Kamineni | Data Scientist Portfolio</title>
 </head>
 
 <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Chaitanya Tilak K </a>
+            <a href="#" class="nav__logo">Chaitanya Tilak K</a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
@@ -70,7 +71,7 @@
                             <i class="uil uil-scenery nav__icon"></i> Portfolio
                         </a>
                     </li>
-                   
+
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
                             <i class="uil uil-message nav__icon"></i> Contact
@@ -98,7 +99,8 @@
             <div class="home__container container grid">
                 <div class="home__content grid">
                     <div class="home__social">
-                        <a href="https://www.linkedin.com/in/chaitanya-tilak-kamineni-459332218/" target="_blank" class="home__social-icon">
+                        <a href="https://www.linkedin.com/in/chaitanya-tilak-kamineni-459332218/" target="_blank"
+                           class="home__social-icon">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
 
@@ -109,14 +111,12 @@
                         <a href="https://leetcode.com/u/CKamineni" target="_blank" class="home__social-icon">
                             <i class="uil uil-arrow"></i>
                         </a>
-
-                        
                     </div>
 
-                
-
                     <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <svg class="home__blob" viewBox="0 0 200 187"
+                             xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <mask id="mask0" mask-type="alpha">
                                 <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
@@ -127,18 +127,26 @@
                                 <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" 
-                                fill="#6b9cf2" /> <!-- Match the desired background color -->
-                                <image class="home__blob-img" x="20" y="10" xlink:href="assets/img/About/Portfolio_COVER-removebg-preview.png" 
-                                style="width: 100%; height: 100%;" preserveAspectRatio="xMidYMid slice" />
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                                      fill="#6b9cf2" />
+                                <image class="home__blob-img"
+                                       x="20" y="10"
+                                       xlink:href="assets/img/About/Portfolio_COVER-removebg-preview.png"
+                                       style="width: 100%; height: 100%;"
+                                       preserveAspectRatio="xMidYMid slice" />
                             </g>
-                        </svg>                    
+                        </svg>
                     </div>
 
                     <div class="home__data">
                         <h1 class="home__title">Hi, I'm Chaitanya Tilak</h1>
-                        <h3 class="home__subtitle">Grauate Student at Iowa State University </h3>
-                        <p class="home__description">Aspiring Data Analytics professional with a strong foundation in Python, SQL, Tableau, and Power BI, seeking roles in data-driven decision-making to enhance business outcomes through predictive modeling, machine learning, and actionable insights.
+                        <h3 class="home__subtitle">Data Scientist | Business Analytics</h3>
+                        <p class="home__description">
+                            Data Scientist skilled in Python, SQL, and cloud platforms (Azure, GCP, Databricks) with experience
+                            building analytical models, designing scalable data pipelines, and transforming complex datasets into
+                            actionable business insights. Strong foundation in feature engineering, experimentation, and ML model
+                            development, with the ability to communicate technical findings into clear, business-focused
+                            recommendations.
                         </p>
                         <a href="#contact" class="button button--flex">
                             Contact Me <i class="uil uil-message button__icon"></i>
@@ -153,7 +161,6 @@
                         <i class="uil uil-arrow-down home__scroll-arrow"></i>
                     </a>
                 </div>
-
             </div>
         </section>
 
@@ -167,351 +174,245 @@
 
                 <div class="about__data">
                     <p class="about__description">
-                        I'm Chaitanya, and I'm deeply passionate about the power of data to reveal hidden patterns, solve complex problems, and drive meaningful change. With a solid foundation in data analysis from my academic and professional experiences, I find excitement in turning raw data into actionable insights. Whether I'm working on anomaly detection for digital meters, exploring market trends in the restaurant industry, or dissecting university rankings, my goal is always to uncover valuable narratives that inform better decisions.<br>I thrive on using tools like SQL, Python, and visualization platforms like Power BI and Tableau to bring clarity and structure to data, making it accessible and impactful. My journey in data analysis is fueled by a genuine curiosity and commitment to continuous learning.                    </p>
+                        I'm a Data Scientist with a background in Business Analytics and Data Science & AI, focused on turning
+                        complex datasets into clear, actionable insights for business stakeholders. I work extensively with
+                        Python, SQL, and cloud platforms such as Azure and Google Cloud to build analytical models, scalable
+                        data pipelines, and interactive dashboards.<br><br>
+                        Recent work includes an anomaly detection pipeline for smart-meter data with MidAmerican Energy, an
+                        ESG risk analytics dashboard powered by NLP and transformer-based sentiment models, and a big-data
+                        restaurant market expansion project on Azure. I enjoy combining feature engineering, experimentation,
+                        and visualization to support data-driven decisions end-to-end.
+                    </p>
 
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">6</span>
-                            <span class="about__info-name">Data Projects <br> Completed</span>
+                            <span class="about__info-title">3+</span>
+                            <span class="about__info-name">Data Science<br>Projects</span>
                         </div>
+                    </div>
 
                     <div class="about__buttons">
-                        <a download="" href="assets/Resume - Chaitanya Tilak.pdf" class="button button--flex resume">
+                        <a download=""
+                           href="assets/Resume - Chaitanya Tilak_DS.pdf"
+                           class="button button--flex resume">
                             Download Resume<i class="uil uil-download-alt button__icon"></i>
                         </a>
-
-
                     </div>
                 </div>
             </div>
-
         </section>
 
         <!--==================== SKILLS ====================-->
         <section class="skills section" id="skills">
             <h2 class="section__title">Skills</h2>
-            <span class="section__subtitle">My Technical Level</span>
+            <span class="section__subtitle">My Technical Stack</span>
 
             <div class="skills__container container grid">
                 <div>
-                    <!--==================== SKILLS 1====================-->
+                    <!--==================== SKILLS 1 ====================-->
                     <div class="skills__content skills__close">
                         <div class="skills__header">
                             <i class="uil uil-brackets-curly skills__icon"></i>
-
                             <div>
-                                <h1 class="skills__title">Development</h1>
-                                <span class="skills__subtitle">All About the Core</span>
+                                <h1 class="skills__title">Programming & Databases</h1>
+                                <span class="skills__subtitle">Core languages & SQL</span>
                             </div>
-
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
 
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Python</h3>
+                                    <h3 class="skills__name">Python (Pandas, NumPy, Scikit-learn)</h3>
                                     <span class="skills__number">90%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__python">
-                                    </span>
+                                    <span class="skills__percentage skills__python"></span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">SQL</h3>
-                                    <span class="skills__number">50%</span>
+                                    <h3 class="skills__name">SQL (PostgreSQL, BigQuery)</h3>
+                                    <span class="skills__number">85%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__java">
-                                    </span>
+                                    <span class="skills__percentage skills__sql"></span>
                                 </div>
                             </div>
 
-                           
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">R</h3>
                                     <span class="skills__number">70%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__r">
-                                    </span>
+                                    <span class="skills__percentage skills__r"></span>
                                 </div>
                             </div>
+                        </div>
+                    </div>
 
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Analytics & BI</h1>
+                                <span class="skills__subtitle">Dashboards & storytelling</span>
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">C++</h3>
-                                    <span class="skills__number">20%</span>
+                                    <h3 class="skills__name">Power BI</h3>
+                                    <span class="skills__number">85%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__cpp">
-                                    </span>
+                                    <span class="skills__percentage skills__powerbi"></span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Tableau</h3>
-                                    <span class="skills__number">60%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__js">
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Power BI</h3>
-                                    <span class="skills__number">45%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__android">
-                                    </span>
-                                </div>
-                            </div>
-
-                            
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">MS Excel</h3>
-                                    <span class="skills__number">70%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__excel">
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Azure</h3>
-                                    <span class="skills__number">40%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__photoshop">
-                                    </span>
-                                </div>
-                            </div>
-
-                            
-                        </div>
-                    </div>
-
-                    <!--==================== SKILLS 2====================-->
-                    <div class="skills__content skills__close">
-                        <div class="skills__header">
-                            <i class="uil uil-server-network skills__icon"></i>
-
-                            <div>
-                                <h1 class="skills__title">Frameworks</h1>
-                                <span class="skills__subtitle">Everyone Needs Support</span>
-                            </div>
-
-                            <i class="uil uil-angle-down skills__arrow"></i>
-                        </div>
-
-                        <div class="skills__list grid">
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">NumPy</h3>
                                     <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__np">
-                                    </span>
+                                    <span class="skills__percentage skills__tableau"></span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">pandas</h3>
-                                    <span class="skills__number">90%</span>
+                                    <h3 class="skills__name">Excel (Advanced)</h3>
+                                    <span class="skills__number">80%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__pd">
-                                    </span>
+                                    <span class="skills__percentage skills__excel"></span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">matplotlib</h3>
-                                    <span class="skills__number">70%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__mtl">
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">scikit-learn</h3>
+                                    <h3 class="skills__name">KPI Dashboards & Data Storytelling</h3>
                                     <span class="skills__number">85%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__sklearn">
-                                    </span>
+                                    <span class="skills__percentage skills__dashboards"></span>
                                 </div>
                             </div>
-                             <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">A/B Testing</h3>
-                                    <span class="skills__number">50%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__mml">
-                                    </span>
-                                </div>
-                            </div>
-
-                           
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">seaborn</h3>
-                                    <span class="skills__number">70%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__seaborn">
-                                    </span>
-                                </div>
-                            </div>
-
-                            
                         </div>
                     </div>
                 </div>
 
                 <div>
-                    <!--==================== SKILLS 3====================-->
+                    <!--==================== SKILLS 3 ====================-->
                     <div class="skills__content skills__close">
                         <div class="skills__header">
                             <i class="uil uil-atom skills__icon"></i>
-
                             <div>
-                                <h1 class="skills__title">Machine Learning</h1>
-                                <span class="skills__subtitle">Theory, theory!</span>
+                                <h1 class="skills__title">ML, Cloud & Data Engineering</h1>
+                                <span class="skills__subtitle">Modeling & pipelines</span>
                             </div>
-
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
 
                         <div class="skills__list grid">
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Linear and Logistic Regression</h3>
-                                    <span class="skills__number">95%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__regression">
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Decision Trees</h3>
-                                    <span class="skills__number">95%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__dt">
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Ensemble Models</h3>
+                                    <h3 class="skills__name">Supervised & Unsupervised Learning</h3>
                                     <span class="skills__number">90%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__ensemble">
-                                    </span>
+                                    <span class="skills__percentage skills__ml"></span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Clustering</h3>
-                                    <span class="skills__number">65%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__clustering">
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Convolutional Neural Networks</h3>
-                                    <span class="skills__number">60%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__cnn">
-                                    </span>
-                                </div>
-                            </div>
-
-                            
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Natural Language Processing</h3>
-                                    <span class="skills__number">45%</span>
-                                </div>
-                                <div class="skills__bar">
-                                    <span class="skills__percentage skills__nlp">
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__titles">
-                                    <h3 class="skills__name">Exploratory Data Analysis</h3>
+                                    <h3 class="skills__name">Feature Engineering & Model Evaluation</h3>
                                     <span class="skills__number">90%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__eda">
-                                    </span>
+                                    <span class="skills__percentage skills__fe"></span>
                                 </div>
                             </div>
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Multi-model Learning</h3>
+                                    <h3 class="skills__name">Time-Series Forecasting</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ts"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">A/B Testing & Experimentation</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ab"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Recommendation Systems</h3>
                                     <span class="skills__number">70%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__mml">
-                                    </span>
+                                    <span class="skills__percentage skills__reco"></span>
                                 </div>
                             </div>
-                            
 
                             <div class="skills__data">
                                 <div class="skills__titles">
-                                    <h3 class="skills__name">Time Series</h3>
-                                    <span class="skills__number">55%</span>
+                                    <h3 class="skills__name">NLP (VADER, FinBERT)</h3>
+                                    <span class="skills__number">70%</span>
                                 </div>
                                 <div class="skills__bar">
-                                    <span class="skills__percentage skills__time">
-                                    </span>
+                                    <span class="skills__percentage skills__nlp"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Azure (Data Factory, Azure SQL)</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__azure"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">GCP (BigQuery, Vertex AI)</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__gcp"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">ETL/ELT Pipelines & Data Modeling</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__etl"></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    
-
-                <div>
-                  
-
-
+                </div>
             </div>
         </section>
 
@@ -534,82 +435,64 @@
                 </div>
 
                 <div class="qualification__sections">
-                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
-
+                    <!--==================== EDUCATION ====================-->
                     <div class="qualification__content qualification__active" data-content id="education">
-
-                        <!--==================== QUALIFICATION 1 ====================-->
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">Masters of Science in Business Analytics (STEM)</h3>
-                                <span class="qualification__subtitle">Iowa State University, IA, USA</span>
+                                <h3 class="qualification__title">Master’s Degree in Business Analytics (STEM)</h3>
+                                <span class="qualification__subtitle">Iowa State University, Ames, USA</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2023-2024
+                                    Aug 2023 – Dec 2024
                                 </div>
                             </div>
-
                             <div>
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
                         </div>
 
-                        
-                        <!--==================== QUALIFICATION 3 ====================-->
                         <div class="qualification__data">
-
-
                             <div>
-                                <h3 class="qualification__title">B.Tech in Data Science and Artificial Intelligence</h3>
+                                <h3 class="qualification__title">Bachelor of Technology in Data Science and AI</h3>
                                 <span class="qualification__subtitle">ICFAI Foundation for Higher Education, India</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2019-2023
+                                    Aug 2019 – Jun 2023
                                 </div>
                             </div>
-
                             <div>
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
-
                         </div>
 
-                        <!--==================== QUALIFICATION 4 ====================-->
                         <div class="qualification__data">
-
-                            <div></div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
                             <div>
                                 <h3 class="qualification__title">Higher Secondary in Science</h3>
-                                <span class="qualification__subtitle">P. Obul Reddy Publuc School, Hyderabad, India</span>
+                                <span class="qualification__subtitle">P. Obul Reddy Public School, Hyderabad, India</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2016-2018
+                                    2016 – 2018
                                 </div>
                             </div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
                         </div>
+                    </div>
 
-                        
-
-                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
-
+                    <!--==================== WORK ====================-->
                     <div class="qualification__content" data-content id="work">
-
-                        <!--==================== QUALIFICATION 1 ====================-->
+                        <!-- Zen Galaxy Capital -->
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">Web Data Integration Intern</h3>
-                                <span class="qualification__subtitle">Wiki Kids Pvt Ltd.</span>
+                                <h3 class="qualification__title">Business Analyst</h3>
+                                <span class="qualification__subtitle">Zen Galaxy Capital LLC</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    January 2023 – June 2023
+                                    Feb 2025 – Present
                                 </div>
 
                                 <span
@@ -620,20 +503,21 @@
 
                                 <div class="qualification__modal">
                                     <div class="qualification__modal-content">
-                                        <!-- <h4 class="qualification__modal-title"></h4> -->
-                                        <p style="text-align:center"><img src=""
-                                                alt=""></p>
                                         <i class="uil uil-times qualification__modal-close"></i>
-
                                         <ul class="qualification__modal-works grid">
                                             <li class="qualification__modal-work">
                                                 <i class="uil uil-check-circle qualification__modal-icon"></i>
-                                                <p>Spearheaded a team of 10 in overhauling the company website, enhancing user experience and increasing site functionality by 40%, which led to improved engagement and performance metrics.</p>
+                                                <p>
+                                                    Evaluated the prefab housing sector to identify innovation trends, regulatory shifts,
+                                                    and market opportunities impacting long-term investment potential.
+                                                </p>
                                             </li>
                                             <li class="qualification__modal-work">
                                                 <i class="uil uil-check-circle qualification__modal-icon"></i>
-                                                <p>Integrated 15 components into the site using advanced SQL queries, enhancing functionality and user experience. Worked with teams and management to ensure a successful, timely launch.
-                                                    </p>
+                                                <p>
+                                                    Analyzed modular housing and Airbnb occupancy datasets using Python and Power BI to
+                                                    identify high-demand regions and optimize capital allocation based on projected ROI.
+                                                </p>
                                             </li>
                                         </ul>
                                     </div>
@@ -644,19 +528,65 @@
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
-
                         </div>
 
-                        
+                        <!-- Wiki Kids -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Web Data Engineering Intern</h3>
+                                <span class="qualification__subtitle">Wiki Kids Pvt. Ltd, Hyderabad</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Jan 2023 – Jun 2023
+                                </div>
+
+                                <span
+                                        class="button button--flex button--small button--link qualification__button-modal">
+                                    What I did here
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </span>
+
+                                <div class="qualification__modal">
+                                    <div class="qualification__modal-content">
+                                        <i class="uil uil-times qualification__modal-close"></i>
+                                        <ul class="qualification__modal-works grid">
+                                            <li class="qualification__modal-work">
+                                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                                <p>
+                                                    Transformed raw educational content into structured, analytics-ready datasets by
+                                                    standardizing 500+ data points into consistent HTML and SQL formats, improving data
+                                                    quality and reducing downstream processing effort for automation.
+                                                </p>
+                                            </li>
+                                            <li class="qualification__modal-work">
+                                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                                <p>
+                                                    Designed taxonomy-driven labeling workflows and created high-quality structured
+                                                    datasets for NLP, question-tagging, and content-classification models, enhancing
+                                                    dataset usability for future machine learning applications.
+                                                </p>
+                                            </li>
+                                            <li class="qualification__modal-work">
+                                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                                <p>
+                                                    Validated data rendering across the web interface by coordinating frontend
+                                                    integration, performing QA checks, and resolving formatting inconsistencies to
+                                                    ensure accuracy, usability, and alignment with content delivery pipelines.
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div>
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
-
                         </div>
+
                     </div>
                 </div>
-            </div>
             </div>
         </section>
 
@@ -668,107 +598,149 @@
             <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
 
-                    <!--==================== PORTFOLIO 1====================-->
+                    <!--==================== PORTFOLIO 1: Capstone ====================-->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/Portfolio/capstone.webp" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Capstone Project</h3>
-                            <h4 class="portfolio__subtitle">Digital Meter Anomaly Detection</h4>
+                            <h3 class="portfolio__title">Anomaly Detection in Digital Meters</h3>
+                            <h4 class="portfolio__subtitle">MidAmerican Energy – Master’s Capstone Project</h4>
 
                             <li class="qualification__modal-work portfolio__description">
                                 <i class="uil uil-check-circle qualification__modal-icon"></i>
-                                <p>The "Anomaly Detection for Digital Meters" project, my Master’s Capstone, is a collaborative initiative with MidAmerican Energy aimed at enhancing operational efficiency in energy management. </p>
+                                <p>
+                                    Built an end-to-end anomaly detection pipeline for a year of smart-meter data, engineering extensive
+                                    temporal and weather-driven features to uncover strong relationships between extreme weather and
+                                    abnormal energy usage.
+                                </p>
                             </li>
 
                             <li class="qualification__modal-work portfolio__description">
                                 <i class="uil uil-check-circle qualification__modal-icon"></i>
-                                <p>This project centers on designing a machine learning model capable of identifying anomalies in digital meter readings. These meters track the energy consumption data of customers, and detecting irregularities in this data is crucial for quickly identifying and addressing issues such as meter malfunctions, data collection errors, or even energy theft.</p>
+                                <p>
+                                    Benchmarked ML and statistical methods—Autoencoder, Isolation Forest, One-Class SVM, LOF, Robust
+                                    Covariance, STL decomposition, Z-Score, IQR—and selected a hybrid approach where the Autoencoder
+                                    achieved the strongest precision–recall performance.
+                                </p>
+                            </li>
+
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p>
+                                    Identified anomaly spikes during peak-load and severe weather events, enabling proactive maintenance
+                                    planning and improving billing accuracy for MidAmerican Energy.
+                                </p>
                             </li>
 
                             <h4 class="portfolio__subtitle">Tech Stack</h4>
-                             <p>Python,Machine Learning(Keras),Numpy
-                                    
-                                </p>
+                            <p>Python, Pandas, NumPy, Scikit-learn, Autoencoders, Time-Series Features</p>
 
-                            <div class="portfolio_tech_icons">
-                                
-                            </div><br>
-
-                            
                             <a href="https://github.com/KCTILAK/Anomaly-Detection"
-                                class="button button--flex button--small portfolio__button">
+                               class="button button--flex button--small portfolio__button" target="_blank">
                                 View Code
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
 
                             <a href="https://github.com/KCTILAK/Anomaly-Detection"
-                                class="button button--flex button--small portfolio__button">
+                               class="button button--flex button--small portfolio__button" target="_blank">
                                 View Report
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
 
                             <a href="https://drive.google.com/file/d/13G-7TScDl_Ezo5Ld-HBL0siTGGGlyRFE/view?usp=sharing"
-                                class="button button--flex button--small portfolio__button">
+                               class="button button--flex button--small portfolio__button" target="_blank">
                                 View Presentation
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
-
                         </div>
                     </div>
 
-
+                    <!--==================== PORTFOLIO 2: Restaurant Analytics ====================-->
                     <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/Portfolio/project2.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Azure Project</h3>
-                            <h4 class="portfolio__subtitle">Digital Meter Anomaly Detection</h4>
+                            <h3 class="portfolio__title">Restaurant Market Expansion Analytics</h3>
+                            <h4 class="portfolio__subtitle">Big-Data Pipeline on Azure</h4>
 
                             <li class="qualification__modal-work portfolio__description">
                                 <i class="uil uil-check-circle qualification__modal-icon"></i>
-                                <p>Spearheaded a comprehensive data analytics project to analyze a vast dataset of 840,914 European restaurants,
-aiming to uncover actionable insights into market trends and consumer preferences. </p>
+                                <p>
+                                    Developed a big-data pipeline using Azure Data Factory, Azure SQL, and Tableau to process and
+                                    analyze 840K+ TripAdvisor restaurant records across major European cities.
+                                </p>
                             </li>
 
                             <li class="qualification__modal-work portfolio__description">
                                 <i class="uil uil-check-circle qualification__modal-icon"></i>
-                                <p>Employed Azure Data Explorer to optimize data ingestion, storage, and complex querying processes, enhancing
-the speed, scalability, and efficiency of data processing operations for large-scale datasets.
-Leveraged Azure Machine Learning to develop robust predictive models, providing in-depth market analysis and
-forecasting potential growth areas within the restaurant industry for strategic decision-making.</p>
+                                <p>
+                                    Performed geospatial and pricing analytics to identify underserved cuisines and saturated markets,
+                                    supporting data-driven market-entry decisions for U.S. restaurant brands.
+                                </p>
+                            </li>
+
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p>
+                                    Created profitability and break-even models that informed optimal pricing tiers, location selection,
+                                    and market expansion strategies.
+                                </p>
                             </li>
 
                             <h4 class="portfolio__subtitle">Tech Stack</h4>
-
-                            <div class="portfolio_tech_icons">
-                                <p>Azure,Tableau,PowerBI
-                                    
-                                </p>
-                                
-                            </div><br>
-
-                            
-                           
+                            <p>Azure Data Factory, Azure SQL, Tableau, Python, Geospatial Analytics</p>
 
                             <a href="https://drive.google.com/file/d/1mbXSc4CuVq5cN1XXDtXiKrzZBHsDh_wb/view?usp=sharing"
-                                class="button button--flex button--small portfolio__button">
+                               class="button button--flex button--small portfolio__button" target="_blank">
                                 View Report
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
 
                             <a href="https://docs.google.com/presentation/d/1_b6F8Fa6tYvKcfOc7SQf-bpk5ZcPX8Bn/edit?usp=sharing&ouid=110119916709103244672&rtpof=true&sd=true"
-                                class="button button--flex button--small portfolio__button">
+                               class="button button--flex button--small portfolio__button" target="_blank">
                                 View Presentation
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
-
                         </div>
                     </div>
 
+                    <!--==================== PORTFOLIO 3: ESG Risk Analytics ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/Portfolio/esg.jpg" alt="" class="portfolio__img">
 
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">ESG Risk Analytics Dashboard</h3>
+                            <h4 class="portfolio__subtitle">NLP-driven ESG Risk Index</h4>
 
-                   
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p>
+                                    Built an NLP-based ESG risk analysis pipeline using GCP Vertex AI to extract signals from SEC 10-K
+                                    filings and global news through preprocessing, topic tagging, and transformer-based sentiment
+                                    scoring.
+                                </p>
+                            </li>
+
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p>
+                                    Engineered ESG classification features using taxonomies, entity extraction, and FinBERT/VADER sentiment,
+                                    creating a transparent ESG Risk Index for monthly company-level tracking.
+                                </p>
+                            </li>
+
+                            <li class="qualification__modal-work portfolio__description">
+                                <i class="uil uil-check-circle qualification__modal-icon"></i>
+                                <p>
+                                    Designed interactive Power BI dashboards to visualize ESG trends, sentiment patterns, and risk scores
+                                    with drill-down capabilities for deeper analysis.
+                                </p>
+                            </li>
+
+                            <h4 class="portfolio__subtitle">Tech Stack</h4>
+                            <p>GCP Vertex AI, Python, FinBERT, VADER, Power BI, NLP Pipelines</p>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Add Arrows -->
@@ -781,25 +753,6 @@ forecasting potential growth areas within the restaurant industry for strategic 
 
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
-
-            </div>
-        </section>
-
-        
-        
-        
-
-                <!-- Add Arrows -->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-
-                <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
-
             </div>
         </section>
 
@@ -812,10 +765,9 @@ forecasting potential growth areas within the restaurant industry for strategic 
                 <div>
                     <div class="contact__information">
                         <i class="uil uil-phone contact__icon"></i>
-
                         <div>
                             <h3 class="contact__title">Call Me</h3>
-                            <span class="contact__subtitle">+1 (515)-735-6199</span>
+                            <span class="contact__subtitle">+1 (515) 735-6199</span>
                         </div>
                     </div>
                 </div>
@@ -823,13 +775,13 @@ forecasting potential growth areas within the restaurant industry for strategic 
                 <div>
                     <div class="contact__information">
                         <i class="uil uil-envelope contact__icon"></i>
-
                         <div>
-                            <a href="mailto: kunjcmehta@gmail.com">
+                            <a href="mailto:chaitanyatilakkamineni@gmail.com">
                                 <h3 class="contact__title">Email</h3>
                             </a>
-                            <a href="mailto: kunjcmehta@gmail.com"><span
-                                    class="contact__subtitle">kaminenichaitanyatilak@gmail.com</span></a>
+                            <a href="mailto:chaitanyatilakkamineni@gmail.com">
+                                <span class="contact__subtitle">chaitanyatilakkamineni@gmail.com</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -837,7 +789,6 @@ forecasting potential growth areas within the restaurant industry for strategic 
                 <div>
                     <div class="contact__information">
                         <i class="uil uil-map-marker contact__icon"></i>
-
                         <div>
                             <h3 class="contact__title">Location</h3>
                             <span class="contact__subtitle">Ames, IA, USA</span>
@@ -845,7 +796,6 @@ forecasting potential growth areas within the restaurant industry for strategic 
                     </div>
                 </div>
             </div>
-
         </section>
     </main>
 
@@ -854,8 +804,8 @@ forecasting potential growth areas within the restaurant industry for strategic 
         <div class="footer__bg">
             <div class="footer__container container grid">
                 <div>
-                    <h1 class="footer__title">Chaitanya</h1>
-                    <!-- <span class="footer__subtitle">Data Scientist</span> -->
+                    <h1 class="footer__title">Chaitanya Tilak K</h1>
+                    <span class="footer__subtitle">Data Scientist</span>
                 </div>
 
                 <ul class="footer__links">
@@ -865,32 +815,26 @@ forecasting potential growth areas within the restaurant industry for strategic 
                     <li>
                         <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
-                    
                     <li>
-                        <a href="#certification" class="footer__link">Certifications</a>
-                    </li>
-                                       <li>
                         <a href="#contact" class="footer__link">Contact</a>
                     </li>
                 </ul>
 
                 <div class="footer__socials">
-                   <a href="https://www.linkedin.com/in/chaitanya-tilak-kamineni-459332218/" target="_blank" class="home__social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
+                    <a href="https://www.linkedin.com/in/chaitanya-tilak-kamineni-459332218/" target="_blank"
+                       class="home__social-icon">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
 
-                        <a href="https://github.com/KCTILAK" target="_blank" class="home__social-icon">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
+                    <a href="https://github.com/KCTILAK" target="_blank" class="home__social-icon">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
 
-                        <a href="https://leetcode.com/u/CKamineni" target="_blank" class="home__social-icon">
-                            <i class="uil uil-arrow"></i>
-                        </a>
-
+                    <a href="https://leetcode.com/u/CKamineni" target="_blank" class="home__social-icon">
+                        <i class="uil uil-arrow"></i>
+                    </a>
                 </div>
             </div>
-
-            
         </div>
     </footer>
 
